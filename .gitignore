@@ -1,0 +1,13 @@
+*~
+*\#*\#
+*.\#*
+*.elc
+.cask
+elpa
+.depend
+habitica-pkg.el
+packages/*
+TAGS
+.DS_STORE
+dist
+test/habitica-test-settings*
