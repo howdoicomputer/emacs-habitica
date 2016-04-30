@@ -21,10 +21,10 @@ You can add this package to your `load-path` and `require` it.
 
 # Roadmap
 
-- [] Implement REST client for Habitica API.
-- [] Setup continuous integration.
-- [] Upload package to `melpa`
-- [] Create a `spacemacs` layer to match with the package.
+- [ ] Implement REST client for Habitica API.
+- [ ] Setup continuous integration.
+- [ ] Upload package to `melpa`
+- [ ] Create a `spacemacs` layer to match with the package.
 
 # License
 
