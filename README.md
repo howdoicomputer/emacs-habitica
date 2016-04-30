@@ -1,12 +1,14 @@
 # Introduction
 
-emacs-habitica is an Emacs integration for the online productivity application [Habitica](https://habitica.com). I also hope this repository and plugin serves an example for writing an extension to Emacs.
+Emacs-habitica is an Emacs integration for the online productivity application [Habitica](https://habitica.com).
 
 # Current Status
 
 This emacs package is completely unusable and in alpha status.
 
 # Usage
+
+Under construction :)
 
 ## Installation
 
