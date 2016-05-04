@@ -64,5 +64,4 @@ Defaults to `error'."
   (if (habitica--get-host)
       (s-concat (habitica--get-host) "/api/" habitica-api-version "/" uri)
     (error (signal 'habitica-error '("Habitica host unknown.")))))
-
 ;;; habitica-tools.el ends here

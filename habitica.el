@@ -42,6 +42,7 @@
 ;;; Code:
 
 (require 's)
+(require 'load-relative)
 
 ;; Customization
 
@@ -53,10 +54,10 @@
   :link '(url-link :tag "habitica" "https://github.com/howdoicomputer/emacs-habitica")
   :link '(emacs-commentary-link :tag "Commentary" "emacs-habitica"))
 
-(require 'habitica-version)
+(require-relative "habitica-version")
 
 ;;;###autoload
-(defun habitica-version (&optional show-version)
+(defun emacs-habitica-version (&optional show-version)
   "Get the emacs-habitica version as string.
 If called interactively or if SHOW-VERSION is non-nil, show the
 version in the echo area and the messages buffer.

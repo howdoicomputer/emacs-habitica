@@ -6,7 +6,7 @@ Emacs-habitica is an Emacs integration for the online productivity application [
 
 This emacs package is completely unusable and in alpha status.
 
- # Usage
+# Usage
 
 Under construction :)
 

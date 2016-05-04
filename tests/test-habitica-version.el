@@ -1,11 +1,9 @@
 (require 'load-relative)
 (require 'pkg-info)
-(require 'load-directory)
-
-(load-directory "../")
+(require-relative "../habitica")
 
 (describe "Return current emacs-habitica version"
           (it "can return the correct version"
-              (expect (habitica-version)
+              (expect (emacs-habitica-version)
                       :to-equal
                       "0.1.0")))

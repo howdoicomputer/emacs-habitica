@@ -23,6 +23,7 @@
 
 (require 'dash)
 (require 'pkg-info)
+(require 'load-relative)
 
 (defun habitica--library-version ()
   "Get the version in the emacs-habitica client header."
