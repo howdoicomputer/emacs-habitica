@@ -7,6 +7,7 @@
 (files "*.el" (:exclude ".dir-locals.el"))
 
 (depends-on "helm" "1.0")
+(depends-on "load-relative" "1.2")
 
 ;; Development
 (development
